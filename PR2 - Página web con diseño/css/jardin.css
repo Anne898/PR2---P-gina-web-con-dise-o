@@ -1,0 +1,135 @@
+.container-jardin {
+    display: grid;
+    gap: 20px;
+    margin: 50px;
+    row-gap: 30px;
+    grid-auto-rows: minmax(100px, auto);
+    grid-template-areas:
+
+    "text1 text1 text1"
+
+    "text2 text2 text2"
+
+    "content1 content2 content3"
+    "content1 content2 content3"
+    "text3 text4 text5"
+
+    "text6 text6 text6"
+ 
+
+}
+
+.imagen{
+    background-size: cover;
+    background-position: center center;
+    max-width: 100%;
+    height: auto;
+    background-color: #5c7964;
+    text-align: center;
+
+}
+
+.text{
+    text-align: center;
+}
+
+#content1 {
+    background-image: url("https://www.lavanguardia.com/r/GODO/LV/p7/WebSite/2020/07/16/Recortada/img_ajasanada_20200716-175252_imagenes_lv_terceros_istock-922546268-k80B-U482332356012lEC-992x558@LaVanguardia-Web.jpg");
+    grid-area: content1;
+}
+
+#content2 {
+    background-image: url("https://i.pinimg.com/originals/f3/ce/11/f3ce111582d981535fe1b2cc6c47cf70.jpg");
+    grid-area: content2;
+}
+
+#content3 {
+    background-image: url("https://casaydiseno.com/wp-content/uploads/2016/03/decoracion-jardin-diseno-asiatico-moderno.jpeg");
+    grid-area: content3;
+}
+
+
+#text1 {
+    grid-area: text1;
+}
+
+#text2 {
+    grid-area: text2;
+}
+
+#text3 {
+    grid-area: text3;
+}
+
+#text4 {
+    grid-area: text4;
+}
+
+#text5 {
+    grid-area: text5;
+}
+
+#text6 {
+    grid-area: text6;
+}
+
+
+
+@media (max-width: 480px) {
+    .container-jardin {
+        margin: 30px;
+        grid-auto-rows: minmax(100px, auto);
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "text1"
+        "text2"
+
+        "content1"
+        "content1"
+        "text3"
+
+        "content2"
+        "content2"
+        "text4"
+
+        "content3"
+        "content3"
+        "text5"
+
+        "text6"
+
+
+    }
+}
+
+@media (max-width: 768px) {
+    .container-jardin {
+        margin: 30px;
+        grid-auto-rows: minmax(100px, auto);
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "text1"
+        "text2"
+
+        "content1"
+        "content1"
+        "text3"
+
+        "content2"
+        "content2"
+        "text4"
+
+        "content3"
+        "content3"
+        "text5"
+
+        "text6"
+
+
+    }
+}
+
+
+
+
+

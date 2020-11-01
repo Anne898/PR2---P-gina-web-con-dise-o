@@ -1,0 +1,361 @@
+.container-hogar {
+    display: grid;
+    gap: 20px;
+    grid-auto-rows: minmax(100px, auto);
+    row-gap: 30px;
+    margin: 50px;
+    grid-template-areas:
+
+    "text1 text1 text1"
+
+    "text2 text2 text2"
+
+    "content1 content2 content3"
+    "content1 content2 content3"
+    "text3 text4 text5"
+
+    "content4 content5 content6"
+    "content4 content5 content6"
+    "text6 text7 text8"
+
+    "content7 content8 content9"
+    "content7 content8 content9"
+    "text9 text10 text11"
+
+    "text12 text12 text12"
+
+    "content10 content11 content12"
+    "content10 content11 content12"
+    "text13 text14 text15"
+
+    "content13 content14 content15"
+    "content13 content14 content15"
+    "text16 text17 text18"
+
+    "text19 text19 text19"
+}
+
+.imagen {
+    background-size: cover;
+    background-position: center center;
+    max-width: 100%;
+    height: auto;
+    background-color: #5c7964;
+
+}
+
+.text {
+    text-align: center;
+}
+
+#content1 {
+    background-image: url("https://images-na.ssl-images-amazon.com/images/I/7157zvnWkUL._AC_SX522_.jpg");
+    grid-area: content1;
+}
+
+#content2 {
+    background-image: url("https://thumbs.dreamstime.com/b/flores-amarillas-del-tansy-com%C3%BAn-vulgare-tanacetum-la-planta-botones-amargos-acobarda-amargo-artemisa-de-oro-138616391.jpg");
+    grid-area: content2;
+}
+
+#content3 {
+    background-image: url("https://www.viverosshangai.es/image/cache/catalog/blog/La-Damiana-un-afrodisiaco-natural-y-estimulante-sexual-natural-1200x750.jpg");
+    grid-area: content3;
+}
+
+#content4 {
+    background-image: url("https://vod-hogarmania.atresmedia.com/hogarmania/images/images01/2013/06/12/5c00e0f15a2c11000177551b/1239x697.jpg");
+    grid-area: content4;
+}
+
+#content5 {
+    background-image: url("https://dam.cocinafacil.com.mx/wp-content/uploads/2019/07/Helecho.jpg");
+    grid-area: content5;
+}
+
+#content6 {
+    background-image: url("https://i.pinimg.com/originals/a9/8d/1c/a98d1cf8b60420dbe49917e76c803838.jpg");
+    grid-area: content6;
+}
+
+#content7 {
+    background-image: url("https://casachula.com.ar/431-large_default/planta-de-magnolia.jpg");
+    grid-area: content7;
+}
+
+#content8 {
+    background-image: url("https://www.ideasyahorro.com/wp-content/uploads/2012/10/planta-del-dinero-1.jpg");
+    grid-area: content8;
+}
+
+#content9 {
+    background-image: url("https://d26lpennugtm8s.cloudfront.net/stores/116/506/products/img_4559t1-96442628b1b4780d3f15572519327204-1024-1024.jpg");
+    grid-area: content9;
+}
+
+#content10 {
+    background-image: url("https://www.cowellsgc.co.uk/files/images/webshop/cissus-ellen-danica-1576745199_l.jpg");
+    grid-area: content10;
+}
+
+#content11 {
+    background-image: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/hiedra-1-1-1528881984.jpg?crop=1.00xw:0.751xh;0,0.249xh&resize=640:*");
+    grid-area: content11;
+}
+
+#content12 {
+    background-image: url("https://i.pinimg.com/originals/23/05/1c/23051c387af4ed7a12f9b4689d2c6a69.jpg");
+    grid-area: content12;
+}
+
+#content13 {
+    background-image: url("https://i.pinimg.com/originals/8e/4d/85/8e4d857f606422d58ef90a6835771d70.jpg");
+    grid-area: content13;
+}
+
+#content14 {
+    background-image: url("https://res.cloudinary.com/patch-gardens/image/upload/c_fill,f_auto,h_840,q_auto:good,w_840/v1539350677/products/aspidistra-a094f5.jpg");
+    grid-area: content14;
+}
+
+#content15 {
+    background-image: url("https://www.elblogdeldecorador.cl/wp-content/uploads/2016/12/Sansevieria.jpg");
+    grid-area: content15;
+}
+
+#text1 {
+    grid-area: text1;
+}
+
+#text2 {
+    grid-area: text2;
+}
+
+#text3 {
+    grid-area: text3;
+}
+
+#text4 {
+    grid-area: text4;
+}
+
+#text5 {
+    grid-area: text5;
+}
+
+#text6 {
+    grid-area: text6;
+}
+
+#text7 {
+    grid-area: text7;
+}
+
+#text8 {
+    grid-area: text8;
+}
+
+#text9 {
+    grid-area: text9;
+}
+
+#text10 {
+    grid-area: text10;
+}
+
+#text11 {
+    grid-area: text11;
+}
+
+#text12 {
+    grid-area: text12;
+}
+
+#text13 {
+    grid-area: text13;
+}
+
+#text14 {
+    grid-area: text14;
+}
+
+#text15 {
+    grid-area: text15;
+}
+
+#text16 {
+    grid-area: text16;
+}
+
+#text17 {
+    grid-area: text17;
+}
+
+#text18 {
+    grid-area: text18;
+}
+
+#text19 {
+    grid-area: text19;
+}
+
+
+@media (max-width: 768px) {
+    .container-hogar {
+        margin: 30px;
+        grid-auto-rows: minmax(100px, auto);
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "text1"
+        "text2"
+
+        "content1"
+        "content1"
+        "text3"
+
+        "content2"
+        "content2"
+        "text4"
+
+        "content3"
+        "content3"
+        "text5"
+
+        "content4"
+        "content4"
+        "text6"
+
+        "content5"
+        "content5"
+        "text7"
+
+        "content6"
+        "content6"
+        "text8"
+
+        "content7"
+        "content7"
+        "text9"
+
+        "content8"
+        "content8"
+        "text10"
+
+        "content9"
+        "content9"
+        "text11"
+
+        "text12"
+
+        "content10"
+        "content10"
+        "text13"
+
+        "content11"
+        "content11"
+        "text14"
+
+        "content12"
+        "content12"
+        "text15"
+
+        "content13"
+        "content13"
+        "text16"
+
+        "content14"
+        "content14"
+        "text17"
+
+        "content15"
+        "content15"
+        "text18"
+
+        "text19"
+
+
+    }
+}
+
+
+
+@media (max-width: 480px) {
+    .container-hogar {
+        margin: 30px;
+        grid-auto-rows: minmax(100px, auto);
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "text1"
+        "text2"
+
+        "content1"
+        "content1"
+        "text3"
+
+        "content2"
+        "content2"
+        "text4"
+
+        "content3"
+        "content3"
+        "text5"
+
+        "content4"
+        "content4"
+        "text6"
+
+        "content5"
+        "content5"
+        "text7"
+
+        "content6"
+        "content6"
+        "text8"
+
+        "content7"
+        "content7"
+        "text9"
+
+        "content8"
+        "content8"
+        "text10"
+
+        "content9"
+        "content9"
+        "text11"
+
+        "text12"
+
+        "content10"
+        "content10"
+        "text13"
+
+        "content11"
+        "content11"
+        "text14"
+
+        "content12"
+        "content12"
+        "text15"
+
+        "content13"
+        "content13"
+        "text16"
+
+        "content14"
+        "content14"
+        "text17"
+
+        "content15"
+        "content15"
+        "text18"
+
+        "text19"
+
+
+    }
+}
+
+
+
+

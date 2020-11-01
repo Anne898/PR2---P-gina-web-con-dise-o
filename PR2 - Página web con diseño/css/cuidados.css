@@ -1,0 +1,101 @@
+.container-cuidados {
+    display: grid;
+    gap: 20px;
+    margin: 50px;
+    row-gap: 30px;
+    grid-auto-rows: minmax(100px, auto);
+    grid-template-areas: "text1 text1 text1" "text2 text2 text2" "content1 content2 content3" "content1 content2 content3" "text3 text3 text3" "content4 content5 content6" "content4 content5 content6" "text4 text4 text4" "content7 content8 content9" "content7 content8 content9"
+}
+
+.imagen {
+    background-size: cover;
+    background-position: center center;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    background-color: #5c7964;
+}
+
+.text {
+    text-align: center;
+}
+
+#content1 {
+    background-image: url("https://www.editorialpencil.es/wp-content/uploads/1593414286_110_Ideas-atractivas-para-decorar-con-plantas-tu-hogar.jpg");
+    grid-area: content1;
+}
+
+#content2 {
+    background-image: url("https://cdn2.rsvponline.mx/files/rsvp/uploads/2020/istock-1138552930.jpg");
+    grid-area: content2;
+}
+
+#content3 {
+    background-image: url("https://i.pinimg.com/736x/a8/1b/bf/a81bbfc9b004821f38e9afe617a62f65.jpg");
+    grid-area: content3;
+}
+
+#content4 {
+    background-image: url("https://image.freepik.com/foto-gratis/agua-fertilizante-natural-despues-huevos-hirviendo-mujer-regando-planta-maceta_116407-5012.jpg");
+    grid-area: content4;
+}
+
+#content5 {
+    background-image: url("https://icdn2.digitaltrends.com/image/digitaltrends_es/mejores-aplicaciones-jardineria.jpg");
+    grid-area: content5;
+}
+
+#content6 {
+    background-image: url("https://www.dhresource.com/f2/albu/g8/M01/23/08/rBVaVF7IeSGAcv43AAEt2b9iRVc473.jpg");
+    grid-area: content6;
+}
+
+#content7 {
+    background-image: url("https://decoracionyjardines.com/wp-content/uploads/2017/04/tipos-de-fertilizantes-5.jpg");
+    grid-area: content7;
+}
+
+#content8 {
+    background-image: url("https://www.floresyplantas.net/wp-content/uploads/pilea-peperomioides-20.jpg");
+    grid-area: content8;
+}
+
+#content9 {
+    background-image: url("https://aws.admagazine.com/prod/designs/v1/assets/620x414/68917.jpg");
+    grid-area: content9;
+}
+
+#text1 {
+    grid-area: text1;
+}
+
+#text2 {
+    grid-area: text2;
+}
+
+#text3 {
+    grid-area: text3;
+}
+
+#text4 {
+    grid-area: text4;
+}
+
+@media (max-width: 768px) {
+    .container-cuidados {
+        margin: 30px;
+        grid-auto-rows: minmax(100px, auto);
+        grid-template-columns: 1fr;
+        grid-template-areas: "text1" "text2" "content1" "content1" "text3" "content4" "content4" "text4" "content7" "content7"
+    }
+}
+
+@media (max-width: 480px) {
+    .container-cuidados {
+        margin: 30px;
+        grid-auto-rows: minmax(100px, auto);
+        grid-template-columns: 1fr;
+        grid-template-areas: "text1" "text2" "content1" "content1" "text3" "content4" "content4" "text4" "content7" "content7"
+    }
+}
+

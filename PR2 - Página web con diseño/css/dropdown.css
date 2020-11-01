@@ -1,0 +1,23 @@
+nav li {
+    display: block;
+}
+
+.navbar-hover .options-container {
+    display: flex;
+}
+
+.navbar-hover .option {
+    width: 100%;
+}
+
+
+.navbar-hover .option ul {
+    display: none;
+    padding: 0;
+    background-color: #FFFBFB;
+    position: absolute;
+}
+
+.navbar-hover .option:hover ul {
+    display: block;
+}
